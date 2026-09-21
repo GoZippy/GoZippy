@@ -1,0 +1,46 @@
+# DORMANT CANDIDATE: this file is not installed under .github/workflows.
+# Intended destination only after review: profile-repository/.github/workflows/refresh-profile.yml.
+# Assumes github-profile/ package contents are the profile repository root.
+# Produces a sanitized review artifact; never commits, opens PRs, or publishes.
+name: Profile activity review candidate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-activity-review
+  cancel-in-progress: false
+
+jobs:
+  aggregate-review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Read the reviewed profile source
+        # actions/checkout v7.0.1, verified from its official tag on 2026-09-21.
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Test the privacy boundary without credentials
+        run: python3 -m unittest discover -s tests -p test_refresh_activity.py -v
+      - name: Fetch owner-visible aggregate only
+        env:
+          # Optional operator setup; no fallback to a bot token or broader scope.
+          # Configure an owner credential after review. Never put token text here.
+          ACTIVITY_GITHUB_TOKEN: ${{ secrets.PROFILE_ACTIVITY_TOKEN }}
+        run: >-
+          python3 scripts/refresh_activity.py --fetch --login GoZippy
+          --token-env ACTIVITY_GITHUB_TOKEN --output activity-review/activity.json
+      - name: Save sanitized snapshot for human review
+        # actions/upload-artifact v7.0.1, verified from official tag on 2026-09-21.
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: profile-activity-review-${{ github.run_id }}
+          path: activity-review/activity.json
+          if-no-files-found: error
+          retention-days: 14

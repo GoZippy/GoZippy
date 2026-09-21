@@ -1,0 +1,11 @@
+{
+  "updated": "2026-09-20",
+  "owner": "GoZippy",
+  "groups": [
+    {"id":"compute","title":"Compute, settlement & AI routing","accent":"#efbc68","projects":["ZippyCoin","ZippyMesh","ZippyMesh LLM Router"],"status":"Work in progress"},
+    {"id":"worlds","title":"Worlds worth building","accent":"#b5a2ff","projects":["ZippyVerse","Orbit3D / game v2","Persistent World Studio"],"status":"Work in progress"},
+    {"id":"agents","title":"Agents that move the work forward","accent":"#78cdd0","projects":["Kiro IDE + CLI + Crew","AutoClaw","ZippyAgent Mobile"],"status":"Integrations & contributions"}
+  ],
+  "tools": ["Rust", "TypeScript", "Python", "Flutter / Dart", "Docker", "GitHub", "Kiro IDE", "Kiro CLI", "Kiro Crew"],
+  "policy": "Only user-named projects and selected high-level descriptions. No private repository URLs, branch names, commit messages or internal milestones. These project groups do not imply shipped integrations."
+}

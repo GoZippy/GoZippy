@@ -1,0 +1,117 @@
+[
+  {
+    "path": "OPERATING-NOTES.md",
+    "sha256": "891dc165c55848d48c32104abfab8ccb453240dc597c7d977a5a802130767c4d",
+    "bytes": 4302
+  },
+  {
+    "path": "README.md",
+    "sha256": "d5e0229834cccd8199bdbb4d26910df17cbd4f1fa93b951d68b8422f729a1544",
+    "bytes": 8361
+  },
+  {
+    "path": "assets/activity.svg",
+    "sha256": "7e8188603640495fc18a5a423403e246ad91521f4f3ae2354d93c0424f79752b",
+    "bytes": 167154
+  },
+  {
+    "path": "assets/collab.svg",
+    "sha256": "863d8ba8a4624b872a99bb0d83f50f2fed80d451cf3ac8ad4b3f96260ae467e2",
+    "bytes": 193683
+  },
+  {
+    "path": "assets/fonts/OFL.txt",
+    "sha256": "fbbbcfef55318de350562559b671360de6d597112ecc5c73881b05092db89602",
+    "bytes": 4389
+  },
+  {
+    "path": "assets/fonts/OpenSans-Bold.ttf",
+    "sha256": "49f26810240aa01b5d0b20638e0e9a060fb93ae01e3731f48f4bff0311d64003",
+    "bytes": 130476
+  },
+  {
+    "path": "assets/fonts/OpenSans-Regular.ttf",
+    "sha256": "e2742d68027e2fb39a01d94a9d398ae02508cf9c760d550de288955d8fa1136e",
+    "bytes": 130484
+  },
+  {
+    "path": "assets/hero-motion.svg",
+    "sha256": "e3832394ec76874c446d736f4223840f6093e29c650424b7fc8feaa2b9fa5a61",
+    "bytes": 244761
+  },
+  {
+    "path": "assets/hero-static.svg",
+    "sha256": "2e28c62441248ded62dfb3ece48e1e0d201f245b2e8f34e2209b3ce06a430ecd",
+    "bytes": 244323
+  },
+  {
+    "path": "assets/proof.svg",
+    "sha256": "d506677d22c0fd9e5fe345db3e03801bad09c3bf62c95f1e4723aec0a83b49b7",
+    "bytes": 223598
+  },
+  {
+    "path": "assets/scene-agents.svg",
+    "sha256": "77b48800340a965fff6f7c37335ce40a53a6e132b552c871176a53665235456e",
+    "bytes": 115471
+  },
+  {
+    "path": "assets/scene-compute.svg",
+    "sha256": "34aeef53c04e41c23cd588d8642959053675ebd50674f2f13be3a89d5ce57ef8",
+    "bytes": 97661
+  },
+  {
+    "path": "assets/scene-worlds.svg",
+    "sha256": "6ddfc8aefeff7575136ba6c1bd1abd58fb99926fd5c7167afe2e7d23a6f1bb81",
+    "bytes": 105067
+  },
+  {
+    "path": "assets/toolkit.svg",
+    "sha256": "23af86d855857510a8a5bc204b0e75bb95c2d9e18256c87b817ce00c49ce79d1",
+    "bytes": 97939
+  },
+  {
+    "path": "assets/zippy-z-sphere.svg",
+    "sha256": "030582a895e69aceee51fde9f45a581d9243e9790aae0f56e87df1ae51733d5e",
+    "bytes": 119039
+  },
+  {
+    "path": "automation/refresh-profile.yml",
+    "sha256": "6b54ee1af91fb7567346d9a049a8cb48adfaabe548d7e6629ea821f3445b4fd9",
+    "bytes": 1888
+  },
+  {
+    "path": "data/activity.json",
+    "sha256": "994ee8e49362166f95a58894ad0e0820dd38c0b30c4c46f11927a2be677b480e",
+    "bytes": 21907
+  },
+  {
+    "path": "data/projects.json",
+    "sha256": "8c432add4913cadd239f5fc5a3ad0b3aef3212936fe08ff5fb46dc6cf48681ed",
+    "bytes": 942
+  },
+  {
+    "path": "requirements-render.txt",
+    "sha256": "b7306a9340f52d8df37e2eade5ec7354866c1cf61df97605a75a405b3fd5939b",
+    "bytes": 19
+  },
+  {
+    "path": "scripts/refresh_activity.py",
+    "sha256": "eb8fb0ce8b032caab8bd762fb629f58ea1b72da2530b136229b3c1dfe7b447fe",
+    "bytes": 12552
+  },
+  {
+    "path": "scripts/render_profile.py",
+    "sha256": "f13df455c1e3e0e96ea1c6f10de806dbe050e5c42d5ef3ab6822ef4321600fdf",
+    "bytes": 12131
+  },
+  {
+    "path": "templates/README.md",
+    "sha256": "98ae9adc7a930beb0e9ab0f873ed56453058661a8ce447e4e060712c660f9234",
+    "bytes": 8183
+  },
+  {
+    "path": "tests/test_refresh_activity.py",
+    "sha256": "bfdd38d500719d8c0927a142641a16ab773dbaf3a85ebd5a2210458bcee7441a",
+    "bytes": 14527
+  }
+]
