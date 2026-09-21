@@ -1,13 +1,13 @@
 [
   {
     "path": "OPERATING-NOTES.md",
-    "sha256": "891dc165c55848d48c32104abfab8ccb453240dc597c7d977a5a802130767c4d",
-    "bytes": 4302
+    "sha256": "d37b4f3bc2864ebce72f495fc355c352b9bb9a079042b476904a59b065fb6985",
+    "bytes": 4512
   },
   {
     "path": "README.md",
-    "sha256": "d5e0229834cccd8199bdbb4d26910df17cbd4f1fa93b951d68b8422f729a1544",
-    "bytes": 8361
+    "sha256": "2e6545176c3f02d4b48aeb768ef290e4c99bc0f3ddb2ce41fedb78af7fa3247b",
+    "bytes": 8852
   },
   {
     "path": "assets/activity.svg",
@@ -43,6 +43,21 @@
     "path": "assets/hero-static.svg",
     "sha256": "2e28c62441248ded62dfb3ece48e1e0d201f245b2e8f34e2209b3ce06a430ecd",
     "bytes": 244323
+  },
+  {
+    "path": "assets/option-verse-ecosystem.svg",
+    "sha256": "412cff37e4ad74400d6e8addc1671f467c610e37e33f48ff8fe22cfec5899b40",
+    "bytes": 928542
+  },
+  {
+    "path": "assets/option-verse-portal-static.svg",
+    "sha256": "11b22e2e15a71afa2a0305bbb8f0a1b9cadd9954da993ea2d86aafbee1a2670e",
+    "bytes": 660669
+  },
+  {
+    "path": "assets/option-verse-portal.svg",
+    "sha256": "30622052335893d5d4d53826d18afc86a922ff9183da8cdeb9033162384dfb13",
+    "bytes": 660456
   },
   {
     "path": "assets/proof.svg",
@@ -106,8 +121,8 @@
   },
   {
     "path": "templates/README.md",
-    "sha256": "98ae9adc7a930beb0e9ab0f873ed56453058661a8ce447e4e060712c660f9234",
-    "bytes": 8183
+    "sha256": "2c71eeab2f3f6605d73875bd06195946db72bf8bfff4504fc388dae73966403d",
+    "bytes": 8679
   },
   {
     "path": "tests/test_refresh_activity.py",

@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
-  <img src="assets/hero-motion.svg" alt="Eric Henderson / Zippy. AI systems that move real work. Builder, operator and Kiro Ambassador. Official Zippy sphere with a conceptual orbit illustration." width="100%">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/option-verse-portal-static.svg">
+  <img src="assets/option-verse-portal.svg" alt="Eric Henderson and Zippy Technologies. Build the system, lock in the capabilities, then build the world. Animated conceptual project screens, wireframe terrain and the official Zippy sphere." width="100%">
 </picture>
 
 <p align="center">
@@ -60,7 +60,9 @@ Bring me a workflow, product or operation that is stuck. I help clarify the oppo
 
 ### Inside the workshop
 
-Three build lanes keep the portfolio understandable. Open one for the current direction and disclosure boundary.
+Six project families show how the systems, agent operations, worlds, real-world products and development tools connect. Inclusion shows portfolio scope, not release status. The expandable lanes below provide deeper context for selected core work.
+
+<img src="assets/option-verse-ecosystem.svg" alt="Zippy portfolio constellation across systems and trust, agent operations, worlds and creation, real-world operations, developer and AI tools, and products and ventures. Public and private project families have different release stages." width="100%">
 
 <details>
 <summary><b>01 · Compute — ZippyCoin, ZippyMesh & LLM Router</b></summary>
@@ -144,4 +146,4 @@ Project ownership, forks and external contributions are different kinds of work.
 
 **Follow the build:** practical lessons, honest work in progress and useful tools as they ship. [Follow on X](https://x.com/ZippyNetworks) · [Connect on LinkedIn](https://www.linkedin.com/in/gozippy/) · [Watch the walkthroughs](https://www.youtube.com/@zippytechnologies)
 
-<sub>Eric Henderson · Zippy Technologies · [Static header](assets/hero-static.svg). Decorative motion settles; reduced-motion preferences are respected.</sub>
+<sub>Eric Henderson · Zippy Technologies · [Static header](assets/option-verse-portal-static.svg). Decorative motion respects reduced-motion preferences.</sub>
